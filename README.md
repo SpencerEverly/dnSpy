@@ -27,7 +27,7 @@ cd dnSpy
 
 To debug Unity games, you need this repo too: https://github.com/dnSpy/dnSpy-Unity-mono (or get the binaries from https://github.com/dnSpy/dnSpy/releases/unity)
 
-# Debugger
+# Debugger (Original)
 
 - Debug .NET Framework, .NET and Unity game assemblies, no source code required
 - Set breakpoints and step into any assembly
@@ -45,6 +45,10 @@ To debug Unity games, you need this repo too: https://github.com/dnSpy/dnSpy-Uni
 - Output window logs various debugging events, and it shows timestamps by default :)
 - Assemblies that decrypt themselves at runtime can be debugged, dnSpy will use the in-memory image. You can also force dnSpy to always use in-memory images instead of disk files.
 - Public API, you can write an extension or use the C# Interactive window to control the debugger
+
+# Debugger (SEE Mod)
+
+- Optionally toggle the default DLLs that is loaded on startup for any reason
 
 # Assembly Editor
 
